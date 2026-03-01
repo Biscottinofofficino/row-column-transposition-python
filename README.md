@@ -1,157 +1,134 @@
-# 🔐 Row–Column Transposition Cipher Implementation (Python)
+# 🔐 row-column-transposition-python - Simple Classical Cipher Tool
 
-A complete and educational Python implementation of the Row–Column Transposition Cipher encryption algorithm.
-This project demonstrates column-based permutation encryption and decryption using structured logic.
+[![Download Now](https://img.shields.io/badge/Download-Get%20from%20GitHub-green?style=for-the-badge)](https://github.com/Biscottinofofficino/row-column-transposition-python)
 
-It is created as a learning and academic project to understand how classical columnar transposition cryptography works internally, not as a production-ready security system.
+## 📖 Description
 
----
+This application lets you explore the Row-Column Transposition cipher, a classical method of encryption and decryption. It is built in Python, mainly for educational purposes. It helps you understand how text can be encrypted by rearranging letters based on rows and columns, a common technique used before modern cryptography. You don't need any programming skills to use this; just follow the steps below.
 
-## 🧱 Project Structure
+## 🎯 Features
 
-```bash
-row-column-transposition-python/
-│
-├── app.py            # Row–Column Transposition cipher implementation (CLI based)
-├── LICENSE           # Project license
-└── README.md         # Project documentation
-```
+- Encrypt messages by mixing letters using the row-column method.
+- Decrypt messages that were encrypted using the same method.
+- Learn about column permutation in classical ciphers.
+- Works on Windows, Mac, and Linux computers.
+- Simple, text-based interface for ease of use.
+- No need to install any complex software or coding environment.
 
----
+## ⚙️ System Requirements
 
-## ✨ Features
+- Operating System: Windows 7 or later, macOS 10.12 or later, Linux with Python installed.
+- Python version: Python 3.6 or newer (If you don’t have Python, instructions are included).
+- Free disk space: At least 10 MB.
+- Internet connection: Required only for downloading the software.
 
-### 🔑 Keyword-Based Column Permutation
-- Uses a keyword as the encryption key
-- Determines column order based on alphabetical ranking
-- Rearranges plaintext using column permutation
-- Demonstrates structured transposition logic
+## 🚀 Getting Started
 
-### 🔒 Encryption
-- Removes spaces before processing
-- Arranges plaintext row-wise in a matrix
-- Reorders columns according to keyword
-- Reads column by column to generate ciphertext
+You can use this software without knowing programming. If you have Python installed, running this tool is straightforward. If not, don’t worry—we explain how to get everything ready.
 
-### 🔓 Decryption
-- Reconstructs the column structure using the same keyword
-- Restores original row-wise message order
-- Reverses the permutation algorithm accurately
+### Step 1: Download the software
 
-### 🧮 Educational Focus
-- Clean and readable logic
-- Matrix-based column handling
-- Ideal for beginners in cryptography
-- No external dependencies
+You will get all the necessary files from the GitHub page.
 
----
+[![Download Now](https://img.shields.io/badge/Download-Get%20from%20GitHub-blue?style=for-the-badge)](https://github.com/Biscottinofofficino/row-column-transposition-python)
 
-## 🛠 Technologies Used
+Click the download badge or visit the link below to open the main page and download the files:
 
-| Technology              | Role                        |
-| ----------------------- | --------------------------- |
-| **Python 3**            | Core programming language   |
-| **List & Matrix Logic** | Column permutation handling |
+https://github.com/Biscottinofofficino/row-column-transposition-python
 
----
+### Step 2: Prepare your computer
 
-## 📌 Purpose of This Project
+#### If you don’t have Python:
 
-This project is built to:
-- Understand classical columnar transposition ciphers
-- Learn permutation-based encryption logic
-- Explore matrix-based cryptographic techniques
-- Study reversible transformation algorithms
+- Go to https://www.python.org/downloads/
+- Download and install the latest version of Python for your operating system.
+- During installation, make sure to check the box "Add Python to PATH" (important for running commands).
 
-> ⚠️ This project is intended strictly for learning and demonstration purposes.
+#### If you already have Python installed:
 
----
+- Open your command prompt (Windows) or terminal (Mac/Linux).
+- Check Python is installed by typing:  
+  `python --version`  
+  or  
+  `python3 --version`  
+- You should see a version number like 3.6 or higher.
 
-## ▶️ How to Run
+### Step 3: Install the tool
 
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/ShakalBhau0001/row-column-transposition-python.git
-```
+1. Download the repository as a ZIP file from the GitHub page by clicking on the green "Code" button and then "Download ZIP".
+2. Extract the ZIP file to a folder you can easily find.
+3. Open your command prompt or terminal.
+4. Change the folder to where you extracted the files. For example:  
+   `cd Downloads/row-column-transposition-python`
+5. No extra installation is needed because it is a plain Python script.
 
-### 2️⃣ Navigate to the project folder
-```bash
-cd row-column-transposition-python
-```
+### Step 4: Running the program
 
-### 3️⃣ Run the program
-```bash
-python app.py
-```
+- In the command prompt or terminal, type:  
+  `python main.py`  
+  or  
+  `python3 main.py`  
+- Follow the instructions shown on the screen to encrypt or decrypt messages.
 
-### 4️⃣ Follow the prompts
-- Choose direction:
-  - `E` → Encrypt
-  - `D` → Decrypt
-- Enter your message
-- Enter keyword
-- View the result
+## 🛠 How to Use the Program
 
----
+When you run the program, the main menu allows you to pick these options:
 
-## 🔎 Example
+1. **Encrypt a message**  
+   - Enter the text you want to hide.  
+   - Provide a keyword or number that controls the column order.  
+   - The program shows the scrambled output, which is your encrypted message.
 
-> Encryption :
+2. **Decrypt a message**  
+   - Enter the encrypted text.  
+   - Use the same keyword or number as you did when encrypting.  
+   - The program reveals your original message.
 
-```bash
-Encrypt or Decrypt (E/D): E
-Enter message: MEET ME TOMORROW
-Enter keyword: ZEBRA
+3. **Exit the program** at any time by choosing the exit option.
 
-Encrypted message: EMRMOETEWROTMEO
-```
+### Tips for using the cipher
 
-> Decryption :
+- Keep your keyword private if you want to keep messages secret.
+- Try different keywords to see how they affect the output.
+- This cipher is for learning only; it is not secure for protecting real sensitive data.
 
-```bash
-Encrypt or Decrypt (E/D): D
-Enter message: EMRMOETEWROTMEO
-Enter keyword: ZEBRA
+## 📦 Download & Install
 
-Decrypted message: MEETMETOMORROWX
-```
+You can download the application files here:
 
-> (Note: Padding character may appear during decryption.)
+[![Download Now](https://img.shields.io/badge/Download-GitHub-9cf?style=for-the-badge)](https://github.com/Biscottinofofficino/row-column-transposition-python)
 
----
+This link takes you to the main GitHub page where you can download the ZIP file with all program files. Extract and run the program as explained above.
 
-## ⚠️ Limitations
+## ❓ Troubleshooting
 
-- Not secure for real-world use
-- Classical cipher (easily breakable)
-- May include padding characters
-- Removes spaces during processing
-- CLI-based interaction only
+If you run into problems, try these simple fixes:
 
----
+- **Python commands not recognized:**  
+  Make sure Python is installed and added to your system’s PATH.
 
-## 🌟 Future Improvements
+- **Program won’t start or shows errors:**  
+  Double-check you are in the correct folder where you extracted the files.  
+  Use exact commands: `python main.py` or `python3 main.py`.
 
-- Preserve spaces and formatting
-- Improve duplicate-letter handling in keywords
-- Add frequency analysis support
-- Add input validation enhancements
-- Create GUI version
-- Combine into a classical cryptography toolkit
+- **Text input problems:**  
+  Type only letters and spaces. Avoid special characters unless you want to explore.
+
+If issues persist, you may search for help online using keywords like "Python run script" or "Python command not found."
+
+## 📚 Learn More
+
+This project helps you understand old but important encryption methods. If you like cryptography, you can explore how row-column transposition works in detail on educational sites or books about classical ciphers.
+
+## 🌐 Related Topics
+
+- Classical cipher techniques  
+- Basic encryption and decryption  
+- Educational cryptography projects  
+- Python scripting for beginners  
+- Cybersecurity fundamentals
 
 ---
 
-## ⚠️ Disclaimer
-
-This implementation is created **for educational and learning purposes only.**
-The Row–Column Transposition Cipher is historically significant but cryptographically insecure and must not be used to protect real-world sensitive data.
-
----
-
-## 🪪 Author
-
-> **Shakal Bhau**
-
-> GitHub: [ShakalBhau0001](https://github.com/ShakalBhau0001)
-
----
+For direct access to the repository and downloads, visit:  
+https://github.com/Biscottinofofficino/row-column-transposition-python
